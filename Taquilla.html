@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquilla</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body background="img/fondo.jpg" >
+    <header>
+        <div id="header">
+            <ul class="nav">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="Plantilla.html">Plantilla</a></li>
+                <li><a href="">Taquilla</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <h2>Horarios</h2>
+        <br>
+        <br>
+       <center><iframe src="https://resultados.as.com/resultados/ficha/equipo/valencia/17/calendario/" width="500" height="500" align="center"></iframe></center> 
+        <br>
+        <br>
+        <br>
+   
+    </header>
+
+    <center><section>
+        <article>
+            <table width="500" border="1" cellspacing="0" cellpadding="0" rules="none">
+            
+                <tbody>
+                      <tr>
+  
+                              <td> <h2 class="valencia"> Accede a tu Área Clientes </h2> 
+                              
+                               <p class="valencia">Elige el modo de pago</p>
+  
+                               <input type="radio" name="boton" value="1" >Tarjeta<br><br>
+                               <input type="radio" name="boton" value="2" >Efectivo<br><br>
+                               
+  
+                               <p class="valencia"> Numero de cuenta </p>
+                               <input type="text"  style="width : 300px; height: 25px" name="nom" id="nom" placeholder="Introduce el numero de cuenta o el IBAM">
+                                  <br>
+                                  <br>
+                               <p class="valencia"> Elige la fecha del partido</p>
+                               <input type="date" name="fecha"  style="width : 300px; height: 25px">
+                                  <br>
+                                  <br>
+                               <input type="checkbox" name="casilla">Recordar
+                               <input type="button" onclick="mensaje('Esta opcion permitirá que este equipo recuerde tus datos para que no necesites incluirlos de nuevo. No la actives si este equipo tambien lo utilizan otras personas.')" value="?">
+  
+                               <script>
+                                 function mensaje(texto) {
+                                   alert(texto);
+                                 }
+                               </script>
+  
+  
+  
+                                  <br>
+                                  <br>
+  
+                                  <center><input type="button" class = "boton" value="Comprar entrada"></center>
+                                  <br>
+                                  <br>
+                                  
+                                      <a href="https://www.valenciacf.com/es/club/centenary"  class= "enlace" > <strong>></strong>El centenario del valencia </a>.
+                                   
+                                  <br>
+                                  <br>
+  
+                                  <a href="https://www.valenciacf.com/es/club/partners"  class= "enlace" > <strong>></strong> Patrocinadores </a>.
+  
+  
+  
+                                  
+                              </td>
+                      </tr>
+  
+  
+                  </tbody>
+  
+  
+  
+          </table>
+           
+        </article>
+    </section></center>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
